@@ -5,6 +5,23 @@ into one clean, canonical, deduplicated profile per candidate — with **provena
 (where each value came from) and **confidence** (how much to trust it). Wrong-but-confident
 is worse than honestly-empty, so unknown values become `null`, never invented.
 
+## Demo video
+A ~2-minute walkthrough: run end-to-end on the sample inputs, the default and a custom-config
+output, plus one design decision and one edge case.
+
+▶ [`EightFold_Assignment_demovideo.mov`](./EightFold_Assignment_demovideo.mov) — click to download and play.
+
+<!--
+  TO EMBED AN INLINE PLAYER ON GITHUB (optional):
+  1. Open your repo on github.com and edit this README in the browser (the pencil icon).
+  2. Drag the file EightFold_Assignment_demovideo.mov into the editor box. GitHub uploads it
+     and inserts a line like:  https://github.com/<user>/<repo>/assets/<numbers>/<id>.mov
+  3. Paste that URL on its own blank line just below this comment, then commit.
+     A bare attachment URL on its own line auto-renders as a video player.
+  (The download link above already works, so this step is purely for inline playback.)
+-->
+
+
 ## Sources implemented
 - **Structured:** Recruiter CSV export (`src/parsers/csv_parser.py`)
 - **Unstructured:** Resume PDF (`src/parsers/resume_parser.py`, text via `pdfplumber`)
