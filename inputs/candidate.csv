@@ -1,0 +1,6 @@
+name,email,phone,current_company,title,location,skills,years_experience
+Aarav Sharma,aarav.sharma@gmail.com,098765 43210,Infosys,Senior Software Engineer,"Bengaluru, Karnataka","Python; JS; postgres; k8s",6
+PRIYA NAIR,priya.nair@outlook.com,+91 99001 23456,Flipkart,Backend Engineer,"Mumbai, Maharashtra","Go, Docker, REST",4
+Rohan Mehta,rohan.mehta@gmail.com,091234 56789,TCS,Data Engineer,"Pune, Maharashtra","Python, SQL, AWS",5
+Ananya Iyer,ananya.iyer@gmail.com,+91 90080 11223,Zoho,Frontend Engineer,"Chennai, Tamil Nadu","JavaScript, React, TypeScript",3
+Vikram Singh,vikram.singh@gmail.com,098200 33445,Wipro,DevOps Engineer,"Gurugram, Haryana","Kubernetes, Docker, AWS",7

@@ -1,0 +1,554 @@
+[
+  {
+    "candidate_id": "cand_293f691a35",
+    "full_name": "Aarav Sharma",
+    "emails": [
+      "aarav.sharma@gmail.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/aaravsharma",
+      "github": "https://github.com/aaravsharma",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior software engineer with 6+ years building scalable backend systems and ML pipelines.",
+    "years_experience": 6.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.91,
+        "sources": [
+          "recruiter_csv",
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.91,
+        "sources": [
+          "recruiter_csv",
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.91,
+        "sources": [
+          "recruiter_csv",
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "TensorFlow",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Infosys",
+        "title": "Senior Software Engineer",
+        "start": "2021-01",
+        "end": "present",
+        "summary": null
+      },
+      {
+        "company": "Flipkart",
+        "title": "Software Engineer",
+        "start": "2018-06",
+        "end": "2020-12",
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech",
+        "field": null,
+        "end_year": 2018
+      }
+    ],
+    "overall_confidence": 0.752,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "merged",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "headline",
+        "source": "resume_pdf",
+        "method": "pdf_summary_section+norm"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "emails",
+        "source": "merged",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "phones",
+        "source": "merged",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "skills",
+        "source": "resume_pdf",
+        "method": "pdf_skills_section+norm"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "skills",
+        "source": "merged",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "links",
+        "source": "resume_pdf",
+        "method": "pdf_url_regex+norm"
+      },
+      {
+        "field": "experience",
+        "source": "merged",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "experience",
+        "source": "resume_pdf",
+        "method": "pdf_experience_heuristic+norm"
+      },
+      {
+        "field": "education",
+        "source": "resume_pdf",
+        "method": "pdf_education_heuristic+norm"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_0c48cad45a",
+    "full_name": "Priya Nair",
+    "emails": [
+      "priya.nair@outlook.com"
+    ],
+    "phones": [
+      "+919900123456"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 4.0,
+    "skills": [
+      {
+        "name": "Docker",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "REST",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Flipkart",
+        "title": "Backend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_4a1f7e1f32",
+    "full_name": "Rohan Mehta",
+    "emails": [
+      "rohan.mehta@gmail.com"
+    ],
+    "phones": [
+      "+919123456789"
+    ],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TCS",
+        "title": "Data Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_7a7b2b8419",
+    "full_name": "Ananya Iyer",
+    "emails": [
+      "ananya.iyer@gmail.com"
+    ],
+    "phones": [
+      "+919008011223"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 3.0,
+    "skills": [
+      {
+        "name": "JavaScript",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Zoho",
+        "title": "Frontend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_11ac193122",
+    "full_name": "Vikram Singh",
+    "emails": [
+      "vikram.singh@gmail.com"
+    ],
+    "phones": [
+      "+919820033445"
+    ],
+    "location": {
+      "city": "Gurugram",
+      "region": "Haryana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 7.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Wipro",
+        "title": "DevOps Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm"
+      }
+    ]
+  }
+]

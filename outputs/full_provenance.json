@@ -1,0 +1,1242 @@
+[
+  {
+    "candidate_id": "cand_293f691a35",
+    "full_name": "Aarav Sharma",
+    "emails": [
+      "aarav.sharma@gmail.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "location": {
+      "city": "Bengaluru",
+      "region": "Karnataka",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/aaravsharma",
+      "github": "https://github.com/aaravsharma",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Senior software engineer with 6+ years building scalable backend systems and ML pipelines.",
+    "years_experience": 6.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.91,
+        "sources": [
+          "recruiter_csv",
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.91,
+        "sources": [
+          "recruiter_csv",
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.91,
+        "sources": [
+          "recruiter_csv",
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "TensorFlow",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.488,
+        "sources": [
+          "resume_pdf"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Infosys",
+        "title": "Senior Software Engineer",
+        "start": "2021-01",
+        "end": "present",
+        "summary": null
+      },
+      {
+        "company": "Flipkart",
+        "title": "Software Engineer",
+        "start": "2018-06",
+        "end": "2020-12",
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "B.Tech",
+        "field": null,
+        "end_year": 2018
+      }
+    ],
+    "overall_confidence": 0.752,
+    "provenance": [
+      {
+        "field": "full_name",
+        "value": "Aarav Sharma",
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "headline",
+        "value": "Senior software engineer with 6+ years building scalable backend systems and ML pipelines.",
+        "source": "resume_pdf",
+        "method": "pdf_summary_section+norm",
+        "confidence": 0.413,
+        "reason": "base 0.41 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.413,
+          "final": 0.413
+        },
+        "competitors": []
+      },
+      {
+        "field": "years_experience",
+        "value": 6.0,
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "emails",
+        "value": "aarav.sharma@gmail.com",
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "phones",
+        "value": "+919876543210",
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.AWS",
+        "value": "AWS",
+        "source": "resume_pdf",
+        "method": "pdf_skills_section+norm",
+        "confidence": 0.488,
+        "reason": "base 0.49 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.488,
+          "final": 0.488
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.JavaScript",
+        "value": "JavaScript",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Kubernetes",
+        "value": "Kubernetes",
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Machine Learning",
+        "value": "Machine Learning",
+        "source": "resume_pdf",
+        "method": "pdf_skills_section+norm",
+        "confidence": 0.488,
+        "reason": "base 0.49 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.488,
+          "final": 0.488
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.PostgreSQL",
+        "value": "PostgreSQL",
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Python",
+        "value": "Python",
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.TensorFlow",
+        "value": "TensorFlow",
+        "source": "resume_pdf",
+        "method": "pdf_skills_section+norm",
+        "confidence": 0.488,
+        "reason": "base 0.49 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.488,
+          "final": 0.488
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.TypeScript",
+        "value": "TypeScript",
+        "source": "resume_pdf",
+        "method": "pdf_skills_section+norm",
+        "confidence": 0.488,
+        "reason": "base 0.49 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.488,
+          "final": 0.488
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.city",
+        "value": "Bengaluru",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.region",
+        "value": "Karnataka",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.country",
+        "value": "IN",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "links.github",
+        "value": "https://github.com/aaravsharma",
+        "source": "resume_pdf",
+        "method": "pdf_url_regex+norm",
+        "confidence": 0.6,
+        "reason": "base 0.60 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.6,
+          "final": 0.6
+        },
+        "competitors": []
+      },
+      {
+        "field": "links.linkedin",
+        "value": "https://linkedin.com/in/aaravsharma",
+        "source": "resume_pdf",
+        "method": "pdf_url_regex+norm",
+        "confidence": 0.6,
+        "reason": "base 0.60 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.6,
+          "final": 0.6
+        },
+        "competitors": []
+      },
+      {
+        "field": "experience[0]",
+        "value": {
+          "company": "Infosys",
+          "title": "Senior Software Engineer",
+          "start": "2021-01",
+          "end": "present",
+          "summary": null
+        },
+        "source": "merged",
+        "method": "csv_cell+norm",
+        "confidence": 0.91,
+        "reason": "merged from 2 observation(s) [recruiter_csv, resume_pdf] matched by company+dates; base 0.81 (reliability x parser_conf, best of ['recruiter_csv', 'resume_pdf']); +0.1 agreement across 2 sources",
+        "factors": {
+          "base": 0.81,
+          "agreement_bonus": 0.1,
+          "final": 0.91
+        },
+        "competitors": []
+      },
+      {
+        "field": "experience[1]",
+        "value": {
+          "company": "Flipkart",
+          "title": "Software Engineer",
+          "start": "2018-06",
+          "end": "2020-12",
+          "summary": null
+        },
+        "source": "resume_pdf",
+        "method": "pdf_experience_heuristic+norm",
+        "confidence": 0.45,
+        "reason": "merged from 1 observation(s) [resume_pdf] matched by company+dates; base 0.45 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.45,
+          "final": 0.45
+        },
+        "competitors": []
+      },
+      {
+        "field": "education[0]",
+        "value": {
+          "institution": "IIT Bombay",
+          "degree": "B.Tech",
+          "field": null,
+          "end_year": 2018
+        },
+        "source": "resume_pdf",
+        "method": "pdf_education_heuristic+norm",
+        "confidence": 0.413,
+        "reason": "base 0.41 (reliability x parser_conf, best of ['resume_pdf'])",
+        "factors": {
+          "base": 0.413,
+          "final": 0.413
+        },
+        "competitors": []
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_0c48cad45a",
+    "full_name": "Priya Nair",
+    "emails": [
+      "priya.nair@outlook.com"
+    ],
+    "phones": [
+      "+919900123456"
+    ],
+    "location": {
+      "city": "Mumbai",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 4.0,
+    "skills": [
+      {
+        "name": "Docker",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "REST",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Flipkart",
+        "title": "Backend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "value": "Priya Nair",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "years_experience",
+        "value": 4.0,
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "emails",
+        "value": "priya.nair@outlook.com",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "phones",
+        "value": "+919900123456",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Docker",
+        "value": "Docker",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Go",
+        "value": "Go",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.REST",
+        "value": "REST",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.city",
+        "value": "Mumbai",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.region",
+        "value": "Maharashtra",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.country",
+        "value": "IN",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "experience[0]",
+        "value": {
+          "company": "Flipkart",
+          "title": "Backend Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        },
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "merged from 1 observation(s) [recruiter_csv] matched by company+dates; base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_4a1f7e1f32",
+    "full_name": "Rohan Mehta",
+    "emails": [
+      "rohan.mehta@gmail.com"
+    ],
+    "phones": [
+      "+919123456789"
+    ],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TCS",
+        "title": "Data Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "value": "Rohan Mehta",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "years_experience",
+        "value": 5.0,
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "emails",
+        "value": "rohan.mehta@gmail.com",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "phones",
+        "value": "+919123456789",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.AWS",
+        "value": "AWS",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Python",
+        "value": "Python",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.SQL",
+        "value": "SQL",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.city",
+        "value": "Pune",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.region",
+        "value": "Maharashtra",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.country",
+        "value": "IN",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "experience[0]",
+        "value": {
+          "company": "TCS",
+          "title": "Data Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        },
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "merged from 1 observation(s) [recruiter_csv] matched by company+dates; base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_7a7b2b8419",
+    "full_name": "Ananya Iyer",
+    "emails": [
+      "ananya.iyer@gmail.com"
+    ],
+    "phones": [
+      "+919008011223"
+    ],
+    "location": {
+      "city": "Chennai",
+      "region": "Tamil Nadu",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 3.0,
+    "skills": [
+      {
+        "name": "JavaScript",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Zoho",
+        "title": "Frontend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "value": "Ananya Iyer",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "years_experience",
+        "value": 3.0,
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "emails",
+        "value": "ananya.iyer@gmail.com",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "phones",
+        "value": "+919008011223",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.JavaScript",
+        "value": "JavaScript",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.React",
+        "value": "React",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.TypeScript",
+        "value": "TypeScript",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.city",
+        "value": "Chennai",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.region",
+        "value": "Tamil Nadu",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.country",
+        "value": "IN",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "experience[0]",
+        "value": {
+          "company": "Zoho",
+          "title": "Frontend Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        },
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "merged from 1 observation(s) [recruiter_csv] matched by company+dates; base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_11ac193122",
+    "full_name": "Vikram Singh",
+    "emails": [
+      "vikram.singh@gmail.com"
+    ],
+    "phones": [
+      "+919820033445"
+    ],
+    "location": {
+      "city": "Gurugram",
+      "region": "Haryana",
+      "country": "IN"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 7.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.81,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Wipro",
+        "title": "DevOps Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "overall_confidence": 0.81,
+    "provenance": [
+      {
+        "field": "full_name",
+        "value": "Vikram Singh",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "years_experience",
+        "value": 7.0,
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "emails",
+        "value": "vikram.singh@gmail.com",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "phones",
+        "value": "+919820033445",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.AWS",
+        "value": "AWS",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Docker",
+        "value": "Docker",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "skills.Kubernetes",
+        "value": "Kubernetes",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.city",
+        "value": "Gurugram",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.region",
+        "value": "Haryana",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "location.country",
+        "value": "IN",
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      },
+      {
+        "field": "experience[0]",
+        "value": {
+          "company": "Wipro",
+          "title": "DevOps Engineer",
+          "start": null,
+          "end": null,
+          "summary": null
+        },
+        "source": "recruiter_csv",
+        "method": "csv_cell+norm",
+        "confidence": 0.81,
+        "reason": "merged from 1 observation(s) [recruiter_csv] matched by company+dates; base 0.81 (reliability x parser_conf, best of ['recruiter_csv'])",
+        "factors": {
+          "base": 0.81,
+          "final": 0.81
+        },
+        "competitors": []
+      }
+    ]
+  }
+]

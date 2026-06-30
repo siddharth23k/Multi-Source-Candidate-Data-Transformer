@@ -1,0 +1,10 @@
+# Runtime dependencies (needed to run the pipeline)
+pydantic>=2.6           # canonical model + config schema validation
+phonenumbers>=8.13      # phone -> E.164 normalization
+pdfplumber>=0.11        # resume PDF text extraction
+
+# Testing (needed only to run `pytest`)
+pytest>=8.0
+
+# Note: the sample resume.pdf and the design PDF were authored with `reportlab`,
+# but it is NOT needed to run or test the project, so it is intentionally omitted.
