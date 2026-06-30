@@ -1,7 +1,4 @@
 
-
-https://github.com/user-attachments/assets/e78795a8-0a95-40cc-822a-cc48a343311a
-
 # Multi-Source Candidate Data Transformer
 
 Turns messy candidate inputs (a **recruiter CSV export** + one or more **resume PDFs**)
