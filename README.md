@@ -100,6 +100,10 @@ required-field errors), and a **golden-output test** that locks byte-for-byte de
 - **Projection separated from the canonical record** keeps "what we know" vs "what this
   consumer wants" cleanly split and config-driven.
 - **Pydantic** validates the canonical model; the projection layer validates the requested shape.
+- **Blocking for scalable identity resolution** — candidates are bucketed by shared keys
+  (email, phone, name, company, school) and only pairs within a bucket are scored, so the
+  pipeline scales to many thousands of candidates instead of an O(n²) all-pairs comparison.
+  The bucket keys are chosen so no real match is skipped (verified by the golden output).
 
 ## Assumptions
 - The CSV has a header row; column names are matched loosely (case/spacing-insensitive aliases).
@@ -114,10 +118,8 @@ required-field errors), and a **golden-output test** that locks byte-for-byte de
   need OCR (not included). LinkedIn/GitHub sources are out of scope for this submission.
 - Country table and skill dictionary are small inline lookups; production would use
   `pycountry` and a managed skills ontology.
-- Identity matching uses **blocking**: candidates are bucketed by shared keys (email, phone,
-  name, company, school) and only pairs within a bucket are scored, so it scales to many
-  thousands of candidates instead of doing an O(n²) all-pairs scan. (Worst case, if everyone
-  shares one key, it still degrades to O(n²) — acceptable for this assignment.)
+- Identity blocking has a worst case: if nearly all candidates share one bucket key (e.g. the
+  same company), that bucket falls back to O(n²) comparisons — acceptable at this scale.
 
 ## Project layout
 ```
