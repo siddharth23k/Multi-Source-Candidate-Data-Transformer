@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/e78795a8-0a95-40cc-822a-cc48a343311a
+
 # Multi-Source Candidate Data Transformer
 
 Turns messy candidate inputs (a **recruiter CSV export** + one or more **resume PDFs**)
@@ -9,17 +13,10 @@ is worse than honestly-empty, so unknown values become `null`, never invented.
 A ~2-minute walkthrough: run end-to-end on the sample inputs, the default and a custom-config
 output, plus one design decision and one edge case.
 
-▶ [`EightFold_Assignment_demovideo.mov`](./EightFold_Assignment_demovideo.mov) — click to download and play.
+▶ [`EightFold_Assignment_demovideo.mov`](./EightFold_Assignment_demovideo.mov) — click to download 
 
-<!--
-  TO EMBED AN INLINE PLAYER ON GITHUB (optional):
-  1. Open your repo on github.com and edit this README in the browser (the pencil icon).
-  2. Drag the file EightFold_Assignment_demovideo.mov into the editor box. GitHub uploads it
-     and inserts a line like:  https://github.com/<user>/<repo>/assets/<numbers>/<id>.mov
-  3. Paste that URL on its own blank line just below this comment, then commit.
-     A bare attachment URL on its own line auto-renders as a video player.
-  (The download link above already works, so this step is purely for inline playback.)
--->
+https://github.com/user-attachments/assets/be83ece8-f7d6-416e-835c-b93456cd9e15
+
 
 
 ## Sources implemented
