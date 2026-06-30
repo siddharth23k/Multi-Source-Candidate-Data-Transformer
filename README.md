@@ -7,8 +7,6 @@ into one clean, canonical, deduplicated profile per candidate — with **provena
 is worse than honestly-empty, so unknown values become `null`, never invented.
 
 ## Demo video
-A ~2-minute walkthrough: run end-to-end on the sample inputs, the default and a custom-config
-output, plus one design decision and one edge case.
 
 ▶ [`EightFold_Assignment_demovideo.mov`](./EightFold_Assignment_demovideo.mov) — click to download 
 
